@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 
 export const siteTitle = 'Curriculum Vitae'
+const name = 'Test'
 
 
 export default function Layout({ children, home }) {
@@ -37,7 +38,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+         
           </>
         ) : (
           <>
